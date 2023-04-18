@@ -1,0 +1,48 @@
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.counter{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.counter button{
+    height: 30%;
+    width: 20%;
+    font-size: 60px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#counter-display{
+    height: 40%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.reset button{
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
